@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le-Blanc</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- normalize css -->
+    <link rel = "stylesheet" href = "normalize.css">
+    <!-- custom css -->
+    <link rel = "stylesheet" href = "styles.css">
+</head>
+<body>
+    
+
+    <!-- header -->
+    <header class = "header bg-blue">
+        <nav class = "navbar bg-blue">
+            <div class = "container flex">
+                <a href = "index.html" class = "navbar-brand">
+                    <img src = "./logo.png" alt = "site logo">
+                </a>
+                <button type = "button" class = "navbar-show-btn">
+                    <img src = "./ham-menu-icon.png">
+                </button>
+
+                <div class = "navbar-collapse bg-white">
+                    <button type = "button" class = "navbar-hide-btn">
+                        <img src = "./close-icon.png">
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link">Home</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link">Sobre</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link">Serviços</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link">Médicos</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link">Departamentos</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link">Blog</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link">Contato</a>
+                        </li>
+                    </ul>
+                    <div class = "search-bar">
+                        <form>
+                            <div class = "search-bar-box flex">
+                                <span class = "search-icon flex">
+                                    <img src = "./search-icon-dark.png">
+                                </span>
+                                <input type = "search" class = "search-control" placeholder="Procurar">
+                            </div>
+                        </form>
+                    </div>
+                </div> 
+            </div>
+        </nav>
+
+        <div class = "header-inner text-white text-center">
+            <div class = "container grid">
+                <div class = "header-inner-left">
+                    <h2>Estética e bem-estar são nossa maior prioridade<br> <span>Bem-vindo ao Le Blanc</span></h2>
+                    <p class = "lead">X+ anos de experiência
+                        X+ pacientes felizes
+                    </p>
+                    <p class = "text text-md">Referência em saúde e beleza.</p>
+                    <div class = "btn-group">
+                        <a href = "#" class = "btn btn-white">Saiba mais</a>
+                        <a href = "#" class = "btn btn-light-blue">ENTRAR</a>
+                    </div>
+                </div>
+                <div class = "header-inner-right">
+                    <img src = "./medicos2.png">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end of header -->
+
+    <main>
+        <!-- about section -->
+        <section id = "about" class = "about py">
+            <div class = "about-inner">
+                <div class = "container grid">
+                    <div class = "about-left text-center">
+                        <div class = "section-head">
+                            <h2>Sobre nós</h2>
+                            <div class = "border-line"></div>
+                        </div>
+                        <p class = "text text-lg">Sua nova clínica em Brasília, para cuidados em Medicina Estética e Odontologia Avançada. Pensamos em cada detalhe para proporcionar o melhor cuidado para o seu sorriso e estética facial.</p>
+                        <a href = "#" class = "btn btn-white">Marcar avaliação</a>
+                    </div>
+                    <div class = "about-right flex">
+                        <div class = "img">
+                            <img src = "./medicos3.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of about section -->
+
+        <!-- banner one -->
+        <section id = "banner-one" class = "banner-one text-center">
+            <div class = "container text-white">
+                <blockquote class = "lead"><i class = "fas fa-quote-left"></i> <h5>Estamos aqui não apenas para atender, mas superar suas expectativas.</h5><i class = "fas fa-quote-right"></i></blockquote>
+            </div>
+        </section>
+        <!-- end of banner one -->
+
+        <!-- services section -->
+        <section id = "services" class = "services py">
+            <div class = "container">
+                <div class = "section-head text-center">
+                    <h2 class = "lead">Somos uma equipe que é referência nas áreas de odontologia, rinoplastia e rinomodelação. Nosso compromisso é ir além:</h2>
+                    <p class = "text text-lg">Transformar e elevar os padrões de cuidados estéticos do mercado.</p>
+                    <div class = "line-art flex">
+                        <div></div>
+                        <img src = "./4-dots.png">
+                        <div></div>
+                    </div>
+                </div>
+                <div class = "services-inner text-center grid">
+                    <article class = "service-item">
+                        <div class = "icon">
+                            <img src = "./service-icon-1.png">
+                        </div>
+                        <h3>Atendimento</h3>
+                        <p class = "text text-sm">Buscamos o seu bem-estar em primeiro lugar. Cada cliente é recebido com cuidado e atenção personalizada. Estamos aqui para ouvir, entender suas necessidades e oferecer os melhores resultados, visando proporcionar uma experiência única e confortável em cada atendimento. </p>
+                    </article>
+
+                    <article class = "service-item">
+                        <div class = "icon">
+                            <img src = "service-icon-2.png">
+                        </div>
+                        <h3>Rinoplastia</h3>
+                        <p class = "text text-sm">Nossa abordagem precisa se estender também para a rinoplastia, oferecendo um resultado perfeito em todos os aspectos. Com técnicas cirúrgicas avançadas, buscando realçar a beleza natural do seu nariz.</p>
+                    </article>
+
+                    <article class = "service-item">
+                        <div class = "icon">
+                            <img src = "service-icon-3.png">
+                        </div>
+                        <h3>Rinomodelação</h3>
+                        <p class = "text text-sm">A rinomodelação na Le Blanc é um procedimento não invasivo. Nossa equipe utiliza preenchedores estratégicos para remodelar seu nariz de forma sutil e natural, realçando suas características faciais únicas, sem necessidade de cirurgia.</p>
+                    </article>
+
+                    <article class = "service-item">
+                        <div class = "icon">
+                            <img src = "service-icon-4.png">
+                        </div>
+                        <h3>Qualidade</h3>
+                        <p class = "text text-sm">A qualidade é o nosso padrão. Utilizamos as mais recentes tecnologias e técnicas avançadas para garantir que cada procedimento seja realizado com precisão e segurança. Nossa qualidade reflete-se nos tratamentos oferecidos e na busca contínua pela satisfação e bem-estar de cada cliente.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- end of services section -->
+
+        <!-- banner two section -->
+        <section id = "banner-two" class = "banner-two text-center">
+            <div class = "container grid">
+                <div class = "banner-two-left">
+                    <img src = "./lentes.png">
+                </div>
+                <div class = "banner-two-right">
+                    <p class = "lead text-white">Odontologia. Aqui, sorrisos radiantes são nossa especialidade. Nossa equipe odontológica oferece desde cuidados preventivos até tratamentos estéticos personalizados e avançados para garantir um sorriso saudável e deslumbrante.</p>
+                    <div class = "btn-group">
+                        <a href = "#" class = "btn btn-white">Saiba mais</a>
+                        <a href = "#" class = "btn btn-light-blue">Agende uma consulta</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id = "banner-two" class = "banner-two text-center">
+            <div class = "container grid">
+                <div class = "banner-two-left">
+                    <img src = "./antes-depois.png">
+                </div>
+                <div class = "banner-two-right">
+                    <p class = "lead text-white">Harmonização orofacial + botox. Abordagens que visam realçar a beleza natural, equilibrando proporções faciais e suavizando características, tudo com foco na estética e no bem-estar.
+                    </p>
+                    <div class = "btn-group">
+                        <a href = "#" class = "btn btn-white">Saiba mais</a>
+                        <a href = "#" class = "btn btn-light-blue">Agende uma consulta</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of banner two section -->
+
+        <!-- doctors section -->
+        <section id = "doc-panel" class = "doc-panel py">
+            <div class = "container">
+                <div class = "section-head">
+                    <h4>Nossa equipe multiprofissional é formada por especialistas qualificados e dedicados. Cada membro da equipe Le Blanc é selecionado por sua experiência e habilidades, e também pelo compromisso com a exelência. Trabalhamos em conjunto para garantir que você receba os melhores cuidados.</h4>
+                </div>
+
+                <div class = "doc-panel-inner grid">
+                    <div class = "doc-panel-item">
+                        <div class = "img flex">
+                            <img src = "./med3.png" alt = "doctor image">
+                            <div class = "info text-center bg-blue text-white flex">
+                                <p class = "lead">Joey Sandler</p>
+                                <p class = "text-lg">Cirurgião Plástico</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "doc-panel-item">
+                        <div class = "img flex">
+                            <img src = "./med2.png" alt = "doctor image">
+                            <div class = "info text-center bg-blue text-white flex">
+                                <p class = "lead">Dexter Mars</p>
+                                <p class = "text-lg">Odontologista</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "doc-panel-item">
+                        <div class = "img flex">
+                            <img src = "./med.png" alt = "doctor image">
+                            <div class = "info text-center bg-blue text-white flex">
+                                <p class = "lead">Sarah Geller</p>
+                                <p class = "text-lg">Otorrinolaringologista</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id = "doc-panel" class = "doc-panel py">
+            <div class = "container">
+                <div class = "section-head">
+                    <h3>GALERIA DE FOTOS</h3>
+
+                <div class = "doc-panel-inner grid">
+                    <div class = "doc-panel-item">
+                        <div class = "img flex">
+                            <img src = "./galeria1.jpeg" alt = "doctor image">
+                            <div class = "info text-center bg-blue text-white flex">
+                                <p class = "lead">clique aqui</p>
+                                <p class = "text-lg">veja mais fotos e vídeos</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "doc-panel-item">
+                        <div class = "img flex">
+                            <img src = "./galeria3.jpeg" alt = "doctor image">
+                            <div class = "info text-center bg-blue text-white flex">
+                                <p class = "lead">clique aqui</p>
+                                <p class = "text-lg">veja mais fotos e vídeos</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "doc-panel-item">
+                        <div class = "img flex">
+                            <img src = "./galeria2.jpeg" alt = "doctor image">
+                            <div class = "info text-center bg-blue text-white flex">
+                                <p class = "lead">clique aqui</p>
+                                <p class = "text-lg">veja mais fotos e vídeos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of doctors section -->
+
+        <!-- package services section -->
+        <section id = "package-service" class = "package-service py text-center">
+            <div class = "container">
+                <div class = "package-service-head text-white">
+                    <h2>especialidades ortodônticas</h2>
+                    <p class = "text text-lg">Bem-estar completo para os nossos pacientes</p>
+                </div>
+                <div class = "package-service-inner grid">
+                    <div class = "package-service-item bg-white">
+                        <div class = "icon flex">
+                            <i class = "fas fa-phone fa-2x"></i>
+                        </div>
+                        <h3>disfunção de ATM/ dor orofacial e ronco: aparelho intra-oral.</h3>
+                        <p class = "text text-sm">* diagnosticamos e tratamos problemas de ATM e dores faciais, buscando restaurar conforto e função.</p>
+                        <p class = "text text-sm">* Proporcionamos noites de sono tranquilas com dispositivos personalizados para reduzir o ronco.</p>
+                        <a href = "#" class = "btn btn-blue">saiba mais</a>
+                    </div>
+
+                    <div class = "package-service-item bg-white">
+                        <div class = "icon flex">
+                            <i class = "fas fa-calendar-alt fa-2x"></i>
+                        </div>
+                        <h3>endodontia e implantodontia.</h3>
+                        <p class = "text text-sm">* Oferecemos tratamentos avançados para preservar dentes inflamados ou infectados.</p>
+                        <p class = "text text-sm">* Restauramos dentes ausentes com implantes dentários precisos e estéticos.</p>
+                        <a href = "#" class = "btn btn-blue">saiba mais</a>
+                    </div>
+                    
+                    <div class = "package-service-item bg-white">
+                        <div class = "icon flex">
+                            <i class = "fas fa-comments fa-2x"></i>
+                        </div>
+                        <h3>ortodontia e reabilitação oral.</h3>
+                        <p class = "text text-sm">* corrigimos alinhamentos dentários para sorrisos bonitos e funcionais.</p>
+                        <p class = "text text-sm">* restauramos saúde, função e estética bucal de forma abrangente.</p>
+                        <a href = "#" class = "btn btn-blue">saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of package services section -->
+
+        <!-- posts section -->
+        <section id = "posts" class = "posts py">
+            <div class = "container">
+                <div class = "section-head">
+                    <h2>PERGUNTAS FREQUENTES E DEPOIMENTOS.</h2>
+                </div>
+                <div class = "posts-inner grid">
+                    <article class = "post-item bg-white">
+                        <div class = "img">
+                            <img src = "./medicos1.png">
+                        </div>
+                        <div class = "content">
+                            <h4>PERGUNTAS FREQUENTES</h4>
+                            <p class = "text text-sm">O que é Rinoplastia? É um procedimento cirúrgico que tem como objetivo modificar a estrutura do nariz. Pode ser realizada por motivos estéticos, corrigindo imperfeições como tamanho, forma ou proporção do nariz, ou por razões funcionais, como corrigir problemas respiratórios. Durante a rinoplastia, o cirurgião pode remodelar o osso e a cartilagem do nariz para alcançar o resultado desejado. Geralmente, é realizada sob anestesia geral e o período de recuperação pode variar de algumas semanas a meses, dependendo da extensão da cirurgia. </p>
+                            <p class = "text text-sm">O que é Rinomodelação? Já este é um procedimento não cirúrgico que utiliza preenchedores dérmicos para modificar a forma do nariz. é uma opção menos invasiva em comparação com a rinoplastia e pode ser usada para corrigir pequenas imperfeições estéticas, como depressões, assimetrias ou projeções indesejadas no nariz. Acaba sendo um procedimento rápido, realizado no consultório médico, e os resultados podem ser vistos imediatamente. No entanto, os efeitos são temporários e podem durar de alguns meses a cerca de um ano, dependendo do tipo de preenchedor utilizado.</p>
+                            <div class = "info flex">
+                                <small class = "text text-sm"><i class = "fas fa-clock"></i> May 02, 2023</small>
+                                <small class = "text text-sm"><i class = "fas fa-comment"></i> 30 comments</small>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class = "post-item bg-white">
+                        <div class = "img">
+                            <img src = "./depoimento.webp">
+                        </div>
+                        <div class = "content">
+                            <h4>Ashley Fox, 28 anos.</h4>
+                            <p class = "text text-sm">Incrível!!! Eu sempre sentia um incomodo com uma pequena imperfeição no meu nariz e o resultado da rinomodelação me ajudou muito, a autoestima está altíssima! d+ </p>
+                            <p class = "text text-sm">Belo Horizonte - MG</p>
+                            <div class = "info flex">
+                                <small class = "text text-sm"><i class = "fas fa-clock"></i> October 20, 2023</small>
+                                <small class = "text text-sm"><i class = "fas fa-comment"></i> 9 comments</small>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class = "post-item bg-white">
+                        <div class = "img">
+                            <img src = "./depoimento2.webp">
+                        </div>
+                        <div class = "content">
+                            <h4>Andrew White, 30 anos</h4>
+                            <p class = "text text-sm">Fiz a rinoplastia e estou em recuperação da cirurgia, mas ocorreu tudo bem. A atenção de toda equipe no pré, durante e agora no pós cirurgia é de um profissionalismo incrível! Fiz a cirugia por problema funcional na minha respiração e estou me recuperando bem! Recomendo. </p>
+                            <p class = "text text-sm">Goiânia - GO</p>
+                            <div class = "info flex">
+                                <small class = "text text-sm"><i class = "fas fa-clock"></i> November 27, 2023</small>
+                                <small class = "text text-sm"><i class = "fas fa-comment"></i> 6 comments</small>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- end of posts section -->
+
+        <!-- contact section -->
+        <section id = "contact" class = "contact py">
+            <div class = "container grid">
+                <div class = "contact-left">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2714.346919282572!2d-47.929073811487775!3d-15.821543951926394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3004310b3e1f%3A0x87911dd650624c5c!2sCentro%20Clinico%20Advance%202nd!5e0!3m2!1spt-BR!2sbr!4v1705349546185!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class = "contact-right text-white text-center bg-blue">
+                    <div class = "contact-head">
+                        <h4 class = "lead">CONTATE-NOS</h4>
+                        
+                    </div>
+                    <form>
+                        <div class = "form-element">
+                            <input type = "text" class = "form-control" placeholder="Seu nome">
+                        </div>
+                        <div class = "form-element">
+                            <input type = "email" class = "form-control" placeholder="Seu email">
+                        </div>
+                        <div class = "form-element">
+                            <textarea rows = "5" placeholder="Deixe sua mensagem" class = "Your Message"></textarea>
+                        </div>
+                        <button type = "submit" class = "btn btn-white btn-submit">
+                            <i class = "fas fa-arrow-right"></i> Enviar
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <section id = "doc-panel" class = "doc-panel py">
+                <div class = "container">
+                    <div class = "section-head">
+                        <h2>CORPO CLÍNICO</h2>
+                        <h4>Com especialistas em diversas áreas da Medicina Estética e Odontologia Avançada, proporcionamos serviços de alta qualidade, atendimento personalizado e resultados excepcionais.</h4>
+                        <h4>Conheça mais sobre os talentos individuais que compõem nosso time e descubra como estão prontos para cuidar da nossa saúde e beleza. </h4>
+                    </div>
+            
+        </section>
+        <!-- end of contact section -->
+    </main>
+
+    <!-- footer  -->
+    <footer id = "footer" class = "footer text-center">
+        <div class = "container">
+            <div class = "footer-inner text-white py grid">
+                <div class = "footer-item">
+                    <h3 class = "footer-head">Sobre nós</h3>
+                    <div class = "icon">
+                        <img src = "./logo.png">
+                    </div>
+                    <p class = "text text-md">Sua nova clínica em Brasília, para cuidados em Medicina Estética e Odontologica Avançada. Pensamos em cada detalhe para proporcionar o melhor cuidado para o seu sorriso e estética facial.</p>
+                </div>
+
+                <div class = "footer-item">
+                    <h3 class = "footer-head">tags</h3>
+                    <ul class = "tags-list flex">
+                        <li>Rinoplastia</li>
+                        <li>Rinomodelação</li>
+                        <li>Odontologia</li>
+                        <li>Otorrinolaringologia</li>
+                        <li>Harmonização e Botox</li>
+                        <li>Médicos</li>
+                        <li>Quem somos</li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item">
+                    <h3 class = "footer-head">Links rápidos</h3>
+                    <ul>
+                        <li><a href = "#" class = "text-white">Serviços</a></li>
+                        <li><a href = "#" class = "text-white">Planos</a></li>
+                        <li><a href = "#" class = "text-white">Politicas de Privacidade</a></li>
+                        <li><a href = "#" class = "text-white">Agendamentos</a></li>
+                    </ul>
+                </div>
+                <div class = "footer-item">
+                    <h3 class = "footer-head">Agendamento</h3>
+                    <p class = "text text-md">https://www.instagram.com/leblanc.df/></p>
+                    <ul class = "appointment-info">
+                        <li>
+                            <i class = "fas fa-envelope"></i>
+                            <span>leblancdf@gmail.com</span>
+                        </li>
+                        <li>
+                            <i class = "fas fa-phone"></i>
+                            <span>(61) 3541-4041  | </span>
+                        </li>
+                        <li>
+                            <i class = "fas fa-phone"></i>
+                            <span>(61) 99129-4040  | </span>
+                        </li>
+                        <address>
+                            Clínica Medica <br>
+                            Centro Clínico Advance 2 <br>
+                            915 Sul Subsolo-2 Salas 16/17<br>
+                            Brasília-DF
+                        </address>
+                    </ul>
+                </div>
+            </div>
+
+            <div class = "footer-links">
+                <ul class = "flex">
+                    <li><a href = "#" class = "text-white flex"> <i class = "fab fa-facebook-f"></i></a></li>
+                    <li><a href = "#" class = "text-white flex"> <i class = "fab fa-twitter"></i></a></li>
+                    <li><a href = "#" class = "text-white flex"> <i class = "fab fa-linkedin"></i></a></li>
+                    <li><a href = "#" class = "text-white flex"> <i class = "fab fa-instagram"></i></a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer  -->
+
+
+    <!-- custom js -->
+    <script src = "js/script.js"></script>
+</body>
+</html>
